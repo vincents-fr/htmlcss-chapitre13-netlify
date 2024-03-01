@@ -174,10 +174,16 @@
       </main>
       <footer>
         <h2 class="title-small">POUR VOUS RECONTACTER</h2>
-        <form action="#">
+        <form name="contact" method="POST" data-netlify="true">
           <i class="fa-solid fa-envelope prefix"></i>
-          <input type="text" placeholder="Votre email" name="" id="" />
-          <button>
+          <input
+            type="text"
+            name="email"
+            placeholder="Votre email"
+            name=""
+            id=""
+          />
+          <button type="submit">
             <i class="fa-solid fa-paper-plane postfix"></i>
           </button>
         </form>
